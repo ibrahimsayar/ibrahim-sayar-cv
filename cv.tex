@@ -6,16 +6,19 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[scale=0.85]{geometry}
+\renewcommand*{\namefont}{\fontsize{28}{32}\mdseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{22}{26}\mdseries\upshape}
 
 % Personal Information
 \name{Ibrahim}{Sayar}
-\title{Software Engineer}
-\address{Samsun, Turkey}{}{}
+\title{Senior Software Engineer}
+\address{Augsburg, Germany}{}{}
 \phone[mobile]{+90~552~281~28~01}
 \email{ibrahimsayar96@gmail.com}
 \homepage{ibrahimsayar.com}
 \social[linkedin]{ibrahimsayar}
 \social[github]{ibrahimsayar}
+\extrainfo{Work permit: Germany (no sponsorship required)}
 
 \begin{document}
 
@@ -27,17 +30,28 @@
 % SUMMARY
 %-----------------------------------------------------------------------
 \section{Summary}
-I am a software developer who has been involved in every stage of software development processes, always aiming to learn new things and apply best practices at every opportunity. Throughout my career, I have had the chance to work across various areas of software development and have always strived to achieve successful outcomes together with my teammates. Among the things I enjoy are performing penetration tests, playing bowling, and following football.
+Senior software engineer with 10+ years across backend development, DevOps and software architecture. I build and run production e-commerce systems end to end: PHP/Laravel and Node.js/NestJS services, marketplace and ERP integrations, and the CI/CD and server infrastructure behind them. I enjoy modernising legacy systems step by step without stopping the business.
 
 %-----------------------------------------------------------------------
 % EXPERIENCE
 %-----------------------------------------------------------------------
 \section{Experience}
 
-\cventry{Jan 2025 -- Present}{Software Quality Assurance Engineer}{Insider}{Turkey}{}{
-Designing and executing automated test strategies for web and mobile platforms.
-Utilizing Selenium, Appium, and Postman for end-to-end and API testing.
-Collaborating with development teams to ensure software quality and reliability.
+\cventry{May 2026 -- Present}{Senior Software Engineer}{Naylalabs (ToyzzShop)}{Remote}{}{
+\begin{itemize}
+\item Maintain and extend a large e-commerce platform (custom PHP admin, Laravel API, React/Vite storefront) handling up to 66,000 orders per month (peak: July 2026) across web, mobile apps and marketplaces, in a team of 25.
+\item Build marketplace integrations (Trendyol, Hepsiburada, Beymen) keeping 45,000+ product listings in sync, and Oracle ERP order/stock synchronisation for a 100,000-SKU catalogue.
+\item Develop a new TypeScript/NestJS DDD monorepo with BullMQ/Redis workers to replace legacy integrations.
+\item Migrated deployments of 7+ legacy applications from Jenkins/Fabric to GitHub Actions with self-hosted runners, atomic symlink releases and one-step rollback, cutting deploy time from 15 minutes to 1 minute.
+\item Operate Linux servers, nginx, load balancer/SSL, Cloudflare and PostgreSQL/MySQL databases; lead database migrations.
+\end{itemize}
+}
+
+\cventry{Jan 2025 -- May 2026}{TestOps Engineer}{Insider}{Turkey}{}{
+\begin{itemize}
+\item Built and maintained automated test pipelines (Selenium, Appium, Postman) integrated into CI for a platform processing around 7 billion events per week.
+\item Worked with development teams to improve release quality and reliability.
+\end{itemize}
 }
 
 \cventry{Aug 2023 -- Feb 2025}{DevOps Engineer}{PangeaVR}{Istanbul, Turkey}{}{
@@ -84,12 +98,12 @@ Developed websites using HTML, CSS, JavaScript, and PHP.
 %-----------------------------------------------------------------------
 \section{Technical Skills}
 
-\cvitem{Languages}{Python, PHP, JavaScript, Java, SQL, Bash}
-\cvitem{Back-end}{Node.js, PHP Laravel, RESTful Architecture, JSON API, Email Services}
-\cvitem{Front-end}{HTML, CSS, Bootstrap, Angular}
-\cvitem{DevOps}{Docker, Kubernetes, AWS, CI/CD, Linux, CentOS, Git}
-\cvitem{Databases}{MySQL, PostgreSQL}
-\cvitem{QA \& Testing}{Selenium, Appium, Postman, Load Testing}
+\cvitem{Languages}{PHP, TypeScript, JavaScript, Python, SQL, Bash}
+\cvitem{Back-end}{Laravel, Node.js, NestJS, REST APIs, BullMQ, Redis, DDD}
+\cvitem{Front-end}{React, Vite, HTML, CSS}
+\cvitem{DevOps}{GitHub Actions, Docker, Kubernetes, AWS, Linux, nginx, Cloudflare, CI/CD}
+\cvitem{Databases}{PostgreSQL, MySQL, Oracle (integration)}
+\cvitem{Testing}{Selenium, Appium, Postman, e2e automation}
 \cvitem{Other}{Software Architecture, Software Infrastructure, AI Prompting}
 
 %-----------------------------------------------------------------------
@@ -107,7 +121,8 @@ Developed websites using HTML, CSS, JavaScript, and PHP.
 \section{Languages}
 
 \cvitemwithcomment{Turkish}{Native}{}
-\cvitemwithcomment{English}{Limited Working Proficiency}{}
+\cvitemwithcomment{English}{B1 (Intermediate)}{}
+\cvitemwithcomment{German}{A1 (learning)}{}
 
 %-----------------------------------------------------------------------
 % AWARDS

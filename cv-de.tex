@@ -6,16 +6,19 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[scale=0.85]{geometry}
+\renewcommand*{\namefont}{\fontsize{28}{32}\mdseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{22}{26}\mdseries\upshape}
 
 % Personal Information
 \name{Ibrahim}{Sayar}
-\title{Softwareentwickler}
-\address{Samsun, T\"urkei}{}{}
+\title{Senior Software Engineer}
+\address{Augsburg, Deutschland}{}{}
 \phone[mobile]{+90~552~281~28~01}
 \email{ibrahimsayar96@gmail.com}
 \homepage{ibrahimsayar.com}
 \social[linkedin]{ibrahimsayar}
 \social[github]{ibrahimsayar}
+\extrainfo{Arbeitserlaubnis: Deutschland (kein Sponsoring erforderlich)}
 
 \begin{document}
 
@@ -27,17 +30,28 @@
 % ZUSAMMENFASSUNG
 %-----------------------------------------------------------------------
 \section{\"Uber mich}
-Ich bin ein Softwareentwickler, der in jeder Phase der Softwareentwicklung t\"atig war und stets darauf abzielt, Neues zu lernen und bew\"ahrte Methoden anzuwenden. Im Laufe meiner Karriere hatte ich die M\"oglichkeit, in verschiedenen Bereichen der Softwareentwicklung zu arbeiten, und habe immer danach gestrebt, gemeinsam mit meinen Teamkollegen erfolgreiche Ergebnisse zu erzielen. Zu meinen Interessen geh\"oren Penetrationstests, Bowling und Fu\ss{}ball.
+Senior Software Engineer mit \"uber 10 Jahren Erfahrung in Backend-Entwicklung, DevOps und Softwarearchitektur. Ich entwickle und betreibe produktive E-Commerce-Systeme von Ende zu Ende: PHP/Laravel- und Node.js/NestJS-Services, Marktplatz- und ERP-Integrationen sowie die CI/CD- und Serverinfrastruktur dahinter. Besonders gern modernisiere ich Legacy-Systeme Schritt f\"ur Schritt, ohne den laufenden Betrieb zu unterbrechen.
 
 %-----------------------------------------------------------------------
 % BERUFSERFAHRUNG
 %-----------------------------------------------------------------------
 \section{Berufserfahrung}
 
-\cventry{Jan 2025 -- Heute}{Software Quality Assurance Engineer}{Insider}{T\"urkei}{}{
-Entwurf und Durchf\"uhrung automatisierter Teststrategien f\"ur Web- und Mobilplattformen.
-Einsatz von Selenium, Appium und Postman f\"ur End-to-End- und API-Tests.
-Zusammenarbeit mit Entwicklungsteams zur Sicherstellung der Softwarequalit\"at.
+\cventry{Mai 2026 -- Heute}{Senior Software Engineer}{Naylalabs (ToyzzShop)}{Remote}{}{
+\begin{itemize}
+\item Wartung und Weiterentwicklung einer gro\ss{}en E-Commerce-Plattform (PHP-Admin, Laravel-API, React/Vite-Storefront) mit bis zu 66.000 Bestellungen pro Monat (Spitze: Juli 2026) \"uber Web, Mobile Apps und Marktpl\"atze, in einem Team von 25 Personen.
+\item Entwicklung von Marktplatz-Integrationen (Trendyol, Hepsiburada, Beymen) mit \"uber 45.000 synchronisierten Produktangeboten sowie ERP-Synchronisation (Oracle) f\"ur Bestellungen und Best\"ande eines Katalogs mit 100.000 SKUs.
+\item Aufbau eines neuen TypeScript/NestJS-DDD-Monorepos mit BullMQ/Redis-Workern als Ersatz f\"ur Legacy-Integrationen.
+\item Migration der Deployments von \"uber 7 Legacy-Anwendungen von Jenkins/Fabric zu GitHub Actions mit Self-hosted Runnern, atomaren Symlink-Releases und Rollback in einem Schritt; Deploy-Zeit von 15 Minuten auf 1 Minute reduziert.
+\item Betrieb von Linux-Servern, nginx, Load Balancer/SSL, Cloudflare sowie PostgreSQL/MySQL-Datenbanken; Leitung von Datenbankmigrationen.
+\end{itemize}
+}
+
+\cventry{Jan 2025 -- Mai 2026}{TestOps Engineer}{Insider}{T\"urkei}{}{
+\begin{itemize}
+\item Aufbau und Pflege automatisierter Testpipelines (Selenium, Appium, Postman) mit CI-Integration f\"ur eine Plattform mit rund 7 Milliarden Events pro Woche.
+\item Zusammenarbeit mit Entwicklungsteams zur Verbesserung von Release-Qualit\"at und Zuverl\"assigkeit.
+\end{itemize}
 }
 
 \cventry{Aug 2023 -- Feb 2025}{DevOps Engineer}{PangeaVR}{Istanbul, T\"urkei}{}{
@@ -84,12 +98,12 @@ Entwicklung von Websites mit HTML, CSS, JavaScript und PHP.
 %-----------------------------------------------------------------------
 \section{Technische Kenntnisse}
 
-\cvitem{Sprachen}{Python, PHP, JavaScript, Java, SQL, Bash}
-\cvitem{Back-end}{Node.js, PHP Laravel, RESTful-Architektur, JSON API}
-\cvitem{Front-end}{HTML, CSS, Bootstrap, Vue.js}
-\cvitem{DevOps}{Docker, Kubernetes, AWS, CI/CD, Linux, CentOS, Git}
-\cvitem{Datenbanken}{MySQL, PostgreSQL}
-\cvitem{QA \& Tests}{Selenium, Appium, Postman, Lasttests}
+\cvitem{Sprachen}{PHP, TypeScript, JavaScript, Python, SQL, Bash}
+\cvitem{Back-end}{Laravel, Node.js, NestJS, REST-APIs, BullMQ, Redis, DDD}
+\cvitem{Front-end}{React, Vite, HTML, CSS}
+\cvitem{DevOps}{GitHub Actions, Docker, Kubernetes, AWS, Linux, nginx, Cloudflare, CI/CD}
+\cvitem{Datenbanken}{PostgreSQL, MySQL, Oracle (Integration)}
+\cvitem{Tests}{Selenium, Appium, Postman, E2E-Automatisierung}
 \cvitem{Sonstiges}{Softwarearchitektur, Softwareinfrastruktur, KI-Prompting}
 
 %-----------------------------------------------------------------------
@@ -107,7 +121,8 @@ Entwicklung von Websites mit HTML, CSS, JavaScript und PHP.
 \section{Sprachen}
 
 \cvitemwithcomment{T\"urkisch}{Muttersprache}{}
-\cvitemwithcomment{Englisch}{Grundlegende Arbeitskenntnisse}{}
+\cvitemwithcomment{Englisch}{B1 (Mittelstufe)}{}
+\cvitemwithcomment{Deutsch}{A1 (lernend)}{}
 
 %-----------------------------------------------------------------------
 % AUSZEICHNUNGEN
