@@ -6,16 +6,19 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[scale=0.85]{geometry}
+\renewcommand*{\namefont}{\fontsize{28}{32}\mdseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{22}{26}\mdseries\upshape}
 
 % Personal Information
 \name{Ibrahim}{Sayar}
-\title{Software Engineer}
-\address{Samsun, Turkey}{}{}
-\phone[mobile]{+90~552~281~28~01}
+\title{Senior Software Engineer}
+\address{Augsburg, Germany}{}{}
+\phone[mobile]{+49~170~1030979}
 \email{ibrahimsayar96@gmail.com}
 \homepage{ibrahimsayar.com}
 \social[linkedin]{ibrahimsayar}
 \social[github]{ibrahimsayar}
+\extrainfo{Work permit: Germany (no sponsorship required)}
 
 \begin{document}
 
@@ -27,17 +30,27 @@
 % SUMMARY
 %-----------------------------------------------------------------------
 \section{Summary}
-I am a software developer who has been involved in every stage of software development processes, always aiming to learn new things and apply best practices at every opportunity. Throughout my career, I have had the chance to work across various areas of software development and have always strived to achieve successful outcomes together with my teammates. Among the things I enjoy are performing penetration tests, playing bowling, and following football.
+Senior software engineer with 10+ years in software architecture, backend development and DevOps. I design and run production systems end to end: service and integration architecture, PHP/Laravel and Node.js/NestJS services, CI/CD, cloud infrastructure and monitoring. Today I own the architecture of e-commerce platforms for multiple brands and support games and other products. I enjoy modernising legacy systems step by step without stopping the business.
 
 %-----------------------------------------------------------------------
 % EXPERIENCE
 %-----------------------------------------------------------------------
 \section{Experience}
 
-\cventry{Jan 2025 -- Present}{Software Quality Assurance Engineer}{Insider}{Turkey}{}{
-Designing and executing automated test strategies for web and mobile platforms.
-Utilizing Selenium, Appium, and Postman for end-to-end and API testing.
-Collaborating with development teams to ensure software quality and reliability.
+\cventry{May 2026 -- Present}{Senior Software Engineer}{Naylalabs}{Remote}{}{
+\begin{itemize}
+\item Own software architecture and DevOps for the e-commerce platforms of multiple independent brands, together handling 300K+ orders per month across web, mobile apps and marketplaces; support games and other products with architecture and infrastructure; team of 25+.
+\item Define architecture and technology choices per product (PHP/Laravel, NestJS, React); design event-driven, queue-based integrations (DDD, BullMQ/Redis) with marketplaces and ERP systems, replacing legacy integrations step by step without downtime.
+\item Standardised CI/CD for 7+ applications on GitHub Actions with zero-downtime releases and one-step rollback, cutting deploy time from 15 minutes to 1 minute.
+\item Run production infrastructure: Linux, nginx, load balancing, Cloudflare (500M+ requests per month), PostgreSQL/MySQL and Grafana monitoring; lead database migrations.
+\end{itemize}
+}
+
+\cventry{Jan 2025 -- May 2026}{TestOps Engineer}{Insider One}{Turkey}{}{
+\begin{itemize}
+\item Built and maintained automated test pipelines (Selenium, Appium, Postman) integrated into CI on Kubernetes for a platform processing 7B+ events per week.
+\item Worked with development teams to improve release quality and reliability.
+\end{itemize}
 }
 
 \cventry{Aug 2023 -- Feb 2025}{DevOps Engineer}{PangeaVR}{Istanbul, Turkey}{}{
@@ -84,20 +97,21 @@ Developed websites using HTML, CSS, JavaScript, and PHP.
 %-----------------------------------------------------------------------
 \section{Technical Skills}
 
-\cvitem{Languages}{Python, PHP, JavaScript, Java, SQL, Bash}
-\cvitem{Back-end}{Node.js, PHP Laravel, RESTful Architecture, JSON API, Email Services}
-\cvitem{Front-end}{HTML, CSS, Bootstrap, Angular}
-\cvitem{DevOps}{Docker, Kubernetes, AWS, CI/CD, Linux, CentOS, Git}
-\cvitem{Databases}{MySQL, PostgreSQL}
-\cvitem{QA \& Testing}{Selenium, Appium, Postman, Load Testing}
-\cvitem{Other}{Software Architecture, Software Infrastructure, AI Prompting}
+\cvitem{Architecture}{Domain-Driven Design, microservices, event-driven \& queue-based systems, system integration (marketplaces, ERP), legacy modernisation, caching, load balancing}
+\cvitem{Languages}{PHP, TypeScript, JavaScript, Python, SQL, Bash}
+\cvitem{Back-end}{Laravel, Node.js, NestJS, REST APIs, BullMQ, Redis}
+\cvitem{Front-end}{React, Vite, HTML, CSS}
+\cvitem{DevOps \& Cloud}{GitHub Actions, Docker, Kubernetes, Terraform, AWS, Linux, nginx, Cloudflare, CI/CD}
+\cvitem{Observability \& Security}{Grafana, OAuth 2.0/JWT, Cloudflare WAF, SSL/TLS}
+\cvitem{Databases}{PostgreSQL, MySQL, Oracle (integration)}
+\cvitem{Testing}{Selenium, Appium, Postman, e2e automation}
 
 %-----------------------------------------------------------------------
 % EDUCATION
 %-----------------------------------------------------------------------
 \section{Education}
 
-\cventry{2017 -- 2023}{Bachelor's Degree -- Management Information Systems}{Anadolu University}{}{}{}
+\cventry{2017 -- 2023}{Bachelor's Degree -- Management Information Systems}{Anadolu University}{}{}{Statement of Comparability (ZAB): in progress}
 \cventry{2014 -- 2016}{Associate Degree -- Computer Programming}{Ondokuz Mayis University}{}{}{}
 \cventry{2011 -- 2014}{Computer Programming}{Atakum Technical and Industrial Vocational High School}{}{}{}
 
@@ -107,7 +121,8 @@ Developed websites using HTML, CSS, JavaScript, and PHP.
 \section{Languages}
 
 \cvitemwithcomment{Turkish}{Native}{}
-\cvitemwithcomment{English}{Limited Working Proficiency}{}
+\cvitemwithcomment{English}{B1 (Intermediate)}{}
+\cvitemwithcomment{German}{A2 (Integration course -- Integrationskurs, ongoing)}{}
 
 %-----------------------------------------------------------------------
 % AWARDS

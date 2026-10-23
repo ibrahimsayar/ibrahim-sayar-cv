@@ -6,16 +6,19 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[scale=0.85]{geometry}
+\renewcommand*{\namefont}{\fontsize{28}{32}\mdseries\upshape}
+\renewcommand*{\titlefont}{\fontsize{22}{26}\mdseries\upshape}
 
 % Personal Information
 \name{Ibrahim}{Sayar}
-\title{Softwareentwickler}
-\address{Samsun, T\"urkei}{}{}
-\phone[mobile]{+90~552~281~28~01}
+\title{Senior Software Engineer}
+\address{Augsburg, Deutschland}{}{}
+\phone[mobile]{+49~170~1030979}
 \email{ibrahimsayar96@gmail.com}
 \homepage{ibrahimsayar.com}
 \social[linkedin]{ibrahimsayar}
 \social[github]{ibrahimsayar}
+\extrainfo{Arbeitserlaubnis: Deutschland (kein Sponsoring erforderlich)}
 
 \begin{document}
 
@@ -27,17 +30,27 @@
 % ZUSAMMENFASSUNG
 %-----------------------------------------------------------------------
 \section{\"Uber mich}
-Ich bin ein Softwareentwickler, der in jeder Phase der Softwareentwicklung t\"atig war und stets darauf abzielt, Neues zu lernen und bew\"ahrte Methoden anzuwenden. Im Laufe meiner Karriere hatte ich die M\"oglichkeit, in verschiedenen Bereichen der Softwareentwicklung zu arbeiten, und habe immer danach gestrebt, gemeinsam mit meinen Teamkollegen erfolgreiche Ergebnisse zu erzielen. Zu meinen Interessen geh\"oren Penetrationstests, Bowling und Fu\ss{}ball.
+Senior Software Engineer mit \"uber 10 Jahren Erfahrung in Softwarearchitektur, Backend-Entwicklung und DevOps. Ich entwerfe und betreibe produktive Systeme von Ende zu Ende: Service- und Integrationsarchitektur, PHP/Laravel- und Node.js/NestJS-Services, CI/CD, Cloud-Infrastruktur und Monitoring. Aktuell verantworte ich die Architektur der E-Commerce-Plattformen mehrerer Marken und unterst\"utze Spiele und weitere Produkte. Besonders gern modernisiere ich Legacy-Systeme Schritt f\"ur Schritt, ohne den laufenden Betrieb zu unterbrechen.
 
 %-----------------------------------------------------------------------
 % BERUFSERFAHRUNG
 %-----------------------------------------------------------------------
 \section{Berufserfahrung}
 
-\cventry{Jan 2025 -- Heute}{Software Quality Assurance Engineer}{Insider}{T\"urkei}{}{
-Entwurf und Durchf\"uhrung automatisierter Teststrategien f\"ur Web- und Mobilplattformen.
-Einsatz von Selenium, Appium und Postman f\"ur End-to-End- und API-Tests.
-Zusammenarbeit mit Entwicklungsteams zur Sicherstellung der Softwarequalit\"at.
+\cventry{Mai 2026 -- Heute}{Senior Software Engineer}{Naylalabs}{Remote}{}{
+\begin{itemize}
+\item Verantwortung f\"ur Softwarearchitektur und DevOps der E-Commerce-Plattformen mehrerer unabh\"angiger Marken mit zusammen 300.000+ Bestellungen pro Monat \"uber Web, Mobile Apps und Marktpl\"atze; Architektur- und Infrastruktur-Support f\"ur Spiele und weitere Produkte; Team von 25+ Personen.
+\item Festlegung von Architektur und Technologie je Produkt (PHP/Laravel, NestJS, React); Entwurf ereignisgesteuerter, queue-basierter Integrationen (DDD, BullMQ/Redis) mit Marktpl\"atzen und ERP-Systemen sowie schrittweise Abl\"osung von Legacy-Integrationen ohne Ausfallzeit.
+\item Vereinheitlichung der CI/CD f\"ur 7+ Anwendungen auf GitHub Actions mit Zero-Downtime-Releases und Rollback in einem Schritt; Deploy-Zeit von 15 Minuten auf 1 Minute reduziert.
+\item Betrieb der Produktionsinfrastruktur: Linux, nginx, Load Balancing, Cloudflare (500 Mio.+ Requests pro Monat), PostgreSQL/MySQL und Monitoring mit Grafana; Leitung von Datenbankmigrationen.
+\end{itemize}
+}
+
+\cventry{Jan 2025 -- Mai 2026}{TestOps Engineer}{Insider One}{T\"urkei}{}{
+\begin{itemize}
+\item Aufbau und Pflege automatisierter Testpipelines (Selenium, Appium, Postman) mit CI-Integration auf Kubernetes f\"ur eine Plattform mit 7 Mrd.+ Events pro Woche.
+\item Zusammenarbeit mit Entwicklungsteams zur Verbesserung von Release-Qualit\"at und Zuverl\"assigkeit.
+\end{itemize}
 }
 
 \cventry{Aug 2023 -- Feb 2025}{DevOps Engineer}{PangeaVR}{Istanbul, T\"urkei}{}{
@@ -64,13 +77,13 @@ Entwicklung skalierbarer serverseitiger Anwendungen mit PHP und Python.
 Entwurf und Optimierung von SQL-Datenbanken (MySQL, PostgreSQL).
 }
 
-\cventry{Nov 2016 -- Dec 2019}{Mitgr\"under \& Back-end-Entwickler}{Kodakil}{Samsun, T\"urkei}{}{
+\cventry{Nov 2016 -- Dez 2019}{Mitgr\"under \& Back-end-Entwickler}{Kodakil}{Samsun, T\"urkei}{}{
 Mitgr\"undung eines Tech-Startups, Leitung der Back-end-Architektur und Entwicklung.
 Aufbau von RESTful-APIs und Verwaltung der Serverinfrastruktur unter Linux.
 \"Uberwachung der technischen Strategie und des Produktentwicklungszyklus.
 }
 
-\cventry{May 2014 -- Nov 2016}{Webdesign, Programmierung \& IT}{Fikir Kulubu}{Samsun, T\"urkei}{}{
+\cventry{Mai 2014 -- Nov 2016}{Webdesign, Programmierung \& IT}{Fikir Kulubu}{Samsun, T\"urkei}{}{
 Entwicklung und Wartung von Webanwendungen mit PHP und JavaScript.
 Verwaltung der IT-Infrastruktur und technischer Support.
 }
@@ -84,20 +97,21 @@ Entwicklung von Websites mit HTML, CSS, JavaScript und PHP.
 %-----------------------------------------------------------------------
 \section{Technische Kenntnisse}
 
-\cvitem{Sprachen}{Python, PHP, JavaScript, Java, SQL, Bash}
-\cvitem{Back-end}{Node.js, PHP Laravel, RESTful-Architektur, JSON API}
-\cvitem{Front-end}{HTML, CSS, Bootstrap, Vue.js}
-\cvitem{DevOps}{Docker, Kubernetes, AWS, CI/CD, Linux, CentOS, Git}
-\cvitem{Datenbanken}{MySQL, PostgreSQL}
-\cvitem{QA \& Tests}{Selenium, Appium, Postman, Lasttests}
-\cvitem{Sonstiges}{Softwarearchitektur, Softwareinfrastruktur, KI-Prompting}
+\cvitem{Architektur}{Domain-Driven Design, Microservices, ereignisgesteuerte \& queue-basierte Systeme, Systemintegration (Marktpl\"atze, ERP), Legacy-Modernisierung, Caching, Load Balancing}
+\cvitem{Sprachen}{PHP, TypeScript, JavaScript, Python, SQL, Bash}
+\cvitem{Back-end}{Laravel, Node.js, NestJS, REST-APIs, BullMQ, Redis}
+\cvitem{Front-end}{React, Vite, HTML, CSS}
+\cvitem{DevOps \& Cloud}{GitHub Actions, Docker, Kubernetes, Terraform, AWS, Linux, nginx, Cloudflare, CI/CD}
+\cvitem{Monitoring \& Sicherheit}{Grafana, OAuth 2.0/JWT, Cloudflare WAF, SSL/TLS}
+\cvitem{Datenbanken}{PostgreSQL, MySQL, Oracle (Integration)}
+\cvitem{Tests}{Selenium, Appium, Postman, E2E-Automatisierung}
 
 %-----------------------------------------------------------------------
 % AUSBILDUNG
 %-----------------------------------------------------------------------
 \section{Ausbildung}
 
-\cventry{2017 -- 2023}{Bachelor -- Wirtschaftsinformatik}{Anadolu Universit\"at}{}{}{}
+\cventry{2017 -- 2023}{Bachelor -- Wirtschaftsinformatik}{Anadolu Universit\"at}{}{}{Zeugnisbewertung (ZAB): beantragt}
 \cventry{2014 -- 2016}{Associate Degree -- Informatik}{Ondokuz Mayis Universit\"at}{}{}{}
 \cventry{2011 -- 2014}{Informatik}{Atakum Technische und Industrielle Berufsschule}{}{}{}
 
@@ -107,7 +121,8 @@ Entwicklung von Websites mit HTML, CSS, JavaScript und PHP.
 \section{Sprachen}
 
 \cvitemwithcomment{T\"urkisch}{Muttersprache}{}
-\cvitemwithcomment{Englisch}{Grundlegende Arbeitskenntnisse}{}
+\cvitemwithcomment{Englisch}{B1 (Mittelstufe)}{}
+\cvitemwithcomment{Deutsch}{A2 (Integrationskurs, laufend)}{}
 
 %-----------------------------------------------------------------------
 % AUSZEICHNUNGEN
